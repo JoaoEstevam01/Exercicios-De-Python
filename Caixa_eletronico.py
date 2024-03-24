@@ -12,7 +12,8 @@ while True:
         totcéd += 1
 
     else:
-        print(f'Total de {totcéd} cédulas de R${céd}')
+        if totcéd > 0:
+            print(f'Total de {totcéd} cédulas de R${céd}')
         if céd == 50:
             céd = 20
         elif céd == 20:
@@ -22,4 +23,6 @@ while True:
         totcéd = 0
         if total == 0:
             break
-    
+print('-'*20)
+print('VOLTE SEMPRE AO BANCO ITAÚ!')
+print('-'*20)
